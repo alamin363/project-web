@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* BORO SCREN ARE JORNO BODY AITA USE KORA LAGBE */
+    /* body{
+      max-width: 800px;
+      margin: 0 auto;
+       border: 1px solid plum;
+    } */
+    h1{
+      font-size: 10vw;
+    }
+    .tiger img{
+      width: 100%;
+    }
+    .container-two{
+      display: flex;
+    }
+    .container-two .spit{
+      width: 50%;
+    }
+    /* make Image responsive inside */
+    .spit img{
+      width:100% ;
+    }
+    /* flex responsive */
+    @media screen and (max-width: 576px) {
+      .container-two{
+        flex-direction: column-reverse;
+      }
+        .container-two .spit{
+        width: 100%;
+      }
+    }
+    .food img{
+     width: 100%;
+    
+    }
+    .container{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+
+    }
+    .food{
+      border: 2px solid indianred;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    @media screen and (max-width: 576px) {
+      .container{
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+   
+    @media screen and (min-width:577px) and (max-width: 992px) {
+      .container{
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <section>
+    <h1>My Responsive Website</h1>
+  </section>
+  <section class="tiger">
+    <h3>Tiger</h3>
+    <img src="/img/food.png" alt="">
+  </section>
+  <section>
+    <h2>two parts</h2>
+    <div class="container-two">
+      <div class="spit">
+        <img src="/img/alamin.png" alt="">
+      </div>
+      <div class="spit">
+        <img src="/img/food.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>Multicolum</h2>
+    <div class="container">
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-1</h2>
+        <h4>prich: 100</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus error sit consequatur saepe, consequuntur odit rem nulla autem itaque porro architecto ut ipsa, quasi eveniet pariatur cupiditate, accusamus voluptatum. Optio.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-2</h2>
+        <h4>prich: 200</h4>
+        <p>Dicta corrupti iure nulla! Quos quod voluptatem ab voluptatibus necessitatibus dicta quasi labore laborum omnis id doloremque fuga perferendis, esse, voluptas alias quia nulla ipsum tempora. Laboriosam ipsam qui nam.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-3</h2>
+        <h4>prich: 300</h4>
+        <p>Nostrum dolorem velit et, quibusdam, ratione omnis dolores autem incidunt iste in error quasi. Tempore, perferendis temporibus tempora dolores rerum nam sed rem asperiores explicabo quis ut laboriosam! Perspiciatis, placeat?</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-4</h2>
+        <h4>prich: 400</h4>
+        <p>Minima reiciendis culpa, voluptas rerum debitis esse placeat libero iure id incidunt numquam quisquam non ullam mollitia facere dolor dolorum excepturi nobis eum quae, fuga obcaecati aliquid eos. Eaque, eligendi.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-5</h2>
+        <h4>prich: 500</h4>
+        <p>Accusantium iste dicta quis cupiditate culpa dolorum facilis deleniti minima corporis, cumque aperiam est laborum asperiores nulla rem optio magnam et placeat autem blanditiis maxime? Eum dolorum vitae quae officia.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-6</h2>
+        <h4>prich: 600</h4>
+        <p>Ullam nihil eligendi pariatur neque ex, tempora quia quidem voluptates animi repellendus cumque officia consequuntur excepturi assumenda odio accusamus saepe laborum sed quis unde beatae. Sit quod rerum mollitia molestias!</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-7</h2>
+        <h4>prich: 700</h4>
+        <p>Fugiat officiis tempore amet nihil vel iure autem eius molestias laborum odio. Dolores exercitationem tenetur vitae voluptatum cum enim dolore, blanditiis hic in vel ducimus itaque. Et nulla porro doloribus?</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-8</h2>
+        <h4>prich: 800</h4>
+        <p>Dolor distinctio eum cum asperiores excepturi modi vel nisi, quas doloribus aliquam in molestias incidunt libero similique consectetur deleniti mollitia repellendus. Debitis dignissimos deleniti libero, facilis at est. Quia, doloribus!</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-9</h2>
+        <h4>prich: 900</h4>
+        <p>Vero itaque expedita blanditiis, accusamus explicabo vel dolores quas ipsa possimus minima eligendi quidem, in laudantium perspiciatis quam at fuga perferendis exercitationem commodi, dolore sint. Quaerat dicta nihil officia facilis!</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-10</h2>
+        <h4>prich: 1000</h4>
+        <p>Dolores, itaque iste velit dolor repellat ipsam dolorem. Tenetur earum distinctio non facilis, fugit nostrum inventore atque necessitatibus omnis autem aut, delectus cupiditate ab voluptas. Nobis doloremque optio dolores error.</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-11</h2>
+        <h4>prich: 1100</h4>
+        <p>Animi magni quo, voluptate tenetur illo voluptates quod nemo, repellat dolor quas cumque. Modi fuga delectus nisi dolorum enim maxime exercitationem eius, commodi, aut voluptas provident explicabo facere neque nostrum!</p>
+        <button>Order Now</button>
+      </div>
+      <div class="food">
+        <img src="/img/food.png" alt="">
+        <h2>item-12</h2>
+        <h4>prich: 1200</h4>
+        <p>Consequuntur exercitationem tempora excepturi ipsum labore repellat. Atque laborum, sit dolorum aliquam aspernatur ea, doloribus iusto reprehenderit magni error quis minus rem dignissimos? Explicabo repellendus tempora impedit error, obcaecati quae!</p>
+        <button>Order Now</button>
+      </div>
+    </div>
+  </section>
+  <!-- 
+    1. viewport meta tag
+    2. css Relative unit
+    3. responsive img (responsive img)
+    4. Body max width and margin auto
+    5. splite screen using Flex(2 colum section)
+    6. grid responsive
+    7. responsive manu (bootstrap responsive)-- future
+   -->
+</body>
+</html>

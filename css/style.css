@@ -1,0 +1,22 @@
+:root{
+ --main-color:slateblue;
+ --border-color:black;
+ --side-width:200px;
+}
+
+.aside,.container{
+  float: left;
+  height: 500px;
+}
+.aside{
+  background-color: green;
+  width: var(--side-width);
+}
+.container{
+  background-color: yellow;
+  width: calc(100% - 2*var(--side-width));
+}
+.bg{
+  color: var(--main-color);
+  clear: both;
+}
