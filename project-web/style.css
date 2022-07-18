@@ -79,6 +79,11 @@ hr{
 /*=====
        corses style
                 ========*/
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+ }
 .course-info{
   display: flex;
   align-items: center;
@@ -88,7 +93,7 @@ hr{
   font-size: 12px;
 }
 .course-duration{
-  background-color: indianred;
+  background-color: rgba(205, 92, 92, 0.103);
   border-radius: 10px;
 }
 .courese-banner img{
@@ -100,4 +105,27 @@ hr{
 }
 .fa-star.empty{
   color:#aeaeae ;
+}
+@media screen and (max-width: 688px) {
+  .container{
+    width:100% ;
+  }
+  .players, .blogs, .courses{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player, .blog{
+    flex-direction: column;
+  }
+
+}
+ /*-------------
+    mediam devices
+ -------------- */
+@media screen and (min-width:689px) and (max-width:992px) {
+  .container{
+    width:100% ;
+  }
+  .players, .blogs, .courses{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
